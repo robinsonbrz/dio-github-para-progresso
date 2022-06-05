@@ -1,5 +1,11 @@
-# Título do Projeto
-##  Breve descrição do projeto
+# DIO - Repositório GitHub Para Compartilhar Progresso 
+##  Bootcamp - Impulso Javascript Evolution 
+
+DIO - Repositório GitHub Para Compartilhar  - 
+
+## Links Úteis
+[Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)
+
 
 <br>
   <div align="center">
@@ -28,16 +34,6 @@
 Visite meu WebSite [https://www.enedino.com.br](https://www.enedino.com.br)
   <br><br><br>
 
-## Objetivo:
-
-Lista dos objetivos
-
-
-
-# Próximas features 
-
-
-## Utilização do programa 
 
 <br>
 _______________________
