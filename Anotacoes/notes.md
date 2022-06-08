@@ -397,7 +397,7 @@ function calculadora() {
 }
 
 calculadora(); */
-
+```
 
 
 Window.alert –
@@ -405,3 +405,124 @@ https://developer.mozilla.org/pt-BR/docs/Web/API/Window/alertTemplate
 
 String -
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals
+
+
+```javascript
+string1 = "a"
+string2 = "b"
+
+let concatenado = string1.concat(string2)
+concatenado.length
+concatenado2=string1 + " " + string2 
+
+//////
+let exemplo = new String("blablabla")
+
+typeof exemplo  // "object"
+
+concole.clear()
+
+// string é iteravel
+string1.length
+concatenado = `${nome} ${sobrenome}`
+
+concatenado = '"'
+
+let frase = "Olá, tudo bem?"
+frase.split(" ")
+
+// a string frase não foi modificada. Temos um retorno em forma de lista.
+
+frase.includes("tudo")  // true
+frase.startsWith("O")   // false
+frase.endsWith("?")     // true
+
+frase.replace(",","!")
+
+
+```
+
+
+
+```javascript
+// Math objeto nativo matemática
+let fiveByThree = 5 / 3
+fiveByThree //  1.66666666666667
+
+Math.floor(fiveByThree);    // arred pra baixo
+Math.ceil(fiveByThree);     // arred pra cima
+
+// para exibir porcentagem é necessário concatenar "%" ao número
+"10" + "%"
+```
+
+
+
+Boolean
+```javascript
+
+let validation = 3 === 0
+validation  // false
+
+validation.toString() // "true"
+
+
+```
+
+# Arrays
+```javascript
+let array = []
+
+array.push(3)   // insere 3 na lista
+array.pop( )    // tira o último valor da lista
+array.shift()   // tira do primeiro elemento
+array.unshift()   // insere valor no primeiro elemento da lista
+
+// iterabilidade entre arrays
+array = [1, 2, 3, 4, 5]
+array2 = []
+for(let i = 0; i < array.length; i++){
+    array2.unshift( array[i]);
+}
+console.log(array);
+console.log(array2);
+
+array.reverse();
+
+```
+
+
+Objetos -> parecidos com dictionaries
+```javascript
+// chave valor
+let obj = {};
+typeof obj;
+
+obj.name = "Julia"
+obj  //  {name "Julia"}
+obj.age = 20
+obj  //  {name "Julia", age:20}
+
+Object.values(obj);      // ["Julia", 20]
+Object.keys(obj);        // ["name", "age"]
+
+let person = {
+    name = "Julia",
+    age: 20,
+    address: "Rua 2"
+}
+
+person.name     // "Julia"
+person["name"]   // "Julia"
+```
+
+Empty, null e undefined
+```javascript
+
+// undefined nunca hove atribuição
+let 
+
+
+
+```
+
